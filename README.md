@@ -1,2 +1,2 @@
-# Project0 (Search)
-CS50 Project0 (Search) for Web Programming with Python and JavaScript
+# Search
+A front-end for Google Search, Google Image Search, and Google Advanced Search.
