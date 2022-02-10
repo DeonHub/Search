@@ -70,6 +70,11 @@
   width: 100%;
 }
 
+.container1 .main form .input .controller {
+  border-radius: 20px;
+  width: 500px;
+}
+
 .container1 .main form .input input {
   border-radius: 20px;
 }
@@ -84,6 +89,15 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+.container1 .main form .search button a {
+  text-decoration: none;
+  color: black;
+}
+
+.container1 .main form .search button:hover {
+  border: 1px solid #cecaca;
 }
 
 .container1 .main form .search input:hover {
@@ -144,6 +158,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.container .main h5 {
+  color: #c91d1d;
 }
 
 .container .main form .btn {

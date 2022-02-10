@@ -21,7 +21,7 @@
                             <a class="nav-link" aria-current="page" href="image.html">Image</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Advanced</a>
+                            <a class="nav-link" href="">Advanced</a>
                           </li>
                         </ul>
                       </div>
@@ -36,30 +36,42 @@
               
               <div class="form">
                 <p>Find Pages with....</p>
-                <form>
+                <form action="https://www.google.com/search">
 
                   <div class="mb-3 row">
-                    <label for="inputPassword" class="col-sm-2 col-form-label">all these words:</label>
+                    <label class="col-sm-2 col-form-label">all these words:</label>
                     <div class="col-sm">
-                      <input type="password" class="form-control" id="inputPassword" placeholder="Type the important words: tri-colour rat terrier">
+                      <input type="text" name="as_q" class="form-control" id="inputPassword" placeholder="Type the important words: tri-colour rat terrier">
                     </div>
                   </div>
                   <div class="mb-3 row">
-                    <label for="inputPassword" class="col-sm-2 col-form-label">this exact word or phrase:</label>
+                    <label class="col-sm-2 col-form-label">this exact word or phrase:</label>
                     <div class="col-sm-10">
-                      <input type="password" class="form-control" id="inputPassword" placeholder="Put exact words in quotes: 'rat terrier' ">
+                      <input type="text" name="as_epq" class="form-control" id="inputPassword" placeholder="Put exact words in quotes: 'rat terrier' ">
                     </div>
                   </div>
                   <div class="mb-3 row">
-                    <label for="inputPassword" class="col-sm-2 col-form-label">any of these words:</label>
+                    <label class="col-sm-2 col-form-label">any of these words:</label>
                     <div class="col-sm-10">
-                      <input type="password" class="form-control" id="inputPassword" placeholder="Type OR between all the words you want: miniature OR standard">
+                      <input type="text" name="as_oq" class="form-control" id="inputPassword" placeholder="Type OR between all the words you want: miniature OR standard">
                     </div>
                   </div>
                   <div class="mb-3 row">
-                    <label for="inputPassword" class="col-sm-2 col-form-label">none of these words:</label>
+                    <label class="col-sm-2 col-form-label">none of these words:</label>
                     <div class="col-sm-10">
-                      <input type="password" class="form-control" id="inputPassword" placeholder="Put a minus sign just before words that you don't want: -rodent, -'Jack Russel'">
+                      <input type="text" name="as_eq" class="form-control" id="inputPassword" placeholder="Put a minus sign just before words that you don't want: -rodent, -'Jack Russel'">
+                    </div>
+
+                    <div class="col-sm-10">
+                      <input hidden name="as_qdr" value="all">
+                    </div>
+
+                    <div class="col-sm-10">
+                      <input  hidden name="as_occt" value="any">
+                    </div>
+
+                    <div class="col-sm-10">
+                      <input  hidden name="safe" value="images">
                     </div>
                   </div>
 
